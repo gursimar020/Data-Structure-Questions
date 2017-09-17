@@ -7,7 +7,7 @@
 using namespace std;
 
 string isBalanced(string s) {
-    stack<char> st;  
+    stack<char> st;
     for (auto c : s) {
         switch (c) {
             case '{':
@@ -35,7 +35,7 @@ string isBalanced(string s) {
                 break;
         }
     }
-    
+
     return st.empty() ? "YES" : "NO";
 }
 

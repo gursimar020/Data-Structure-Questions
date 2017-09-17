@@ -18,11 +18,13 @@ int main(){
         int x; 
         scanf("%d %d %d",&n,&m,&x);
         int *a = malloc(sizeof(int) * n);
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i < n; i++)
+		{
            scanf("%d",&a[i]);
         }
         int *b = malloc(sizeof(int) * m);
-        for(int i = 0; i < m; i++){
+        for(int i = 0; i < m; i++)
+		{
            scanf("%d",&b[i]);
         }
         
